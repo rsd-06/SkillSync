@@ -20,20 +20,6 @@ cd server && npm install && cd ..
 cd client && npm install && cd ..
 ```
 
-### 2. Environment files
-
-**server/.env** — already configured. Verify it contains:
-```
-MONGO_URI=mongodb+srv://skillsync:7Cr1gao0H1v36nbA@cluster0.dzxispn.mongodb.net/skillsync?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=skillsync_jwt_secret_kct_2025
-PORT=5000
-CLIENT_URL=http://localhost:3000
-```
-
-**client/.env.local** — already configured:
-```
-NEXT_PUBLIC_API_URL=http://localhost:5000
-```
 
 ### 3. Seed the database
 
